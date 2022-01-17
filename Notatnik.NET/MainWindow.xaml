@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Notatnik.NET"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+        Title="Notatnik.NET" Height="350" Width="525">
+    <DockPanel>
+        <Menu IsMainMenu="True" DockPanel.Dock="Top"/>
+        <ToolBarTray DockPanel.Dock="Top"/>
+        <StatusBar DockPanel.Dock="Bottom"/>
+        <TextBox/>
+    </DockPanel>
 </Window>
